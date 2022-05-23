@@ -1,0 +1,41 @@
+.parent {
+    position: relative;
+    hight:100%;
+    width:100vh;
+    background-color: gray;
+}
+
+.static{
+    position: static;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+
+}
+.relative{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
+.absolute{
+    position: absolute;
+    top: o;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+.fixed{
+    position: fixed;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+.sticky{
+    position: sticky;
+    width: 200px;
+    height: 200px;  
+    background-color: red; 
+}
